@@ -1,0 +1,22 @@
+:root {
+  --green-primary: #2fbf71;
+  --green-bright: #7eea63;
+  --green-mint: #bff3d7;
+  --green-soft: #eaf8ef;
+  --green-dark: #1f4d3a;
+  --text-dark: #1f2a24;
+  --text-soft: #4c5b53;
+  --white-soft: #f8faf9;
+  --border-soft: #d8eadc;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--white-soft);
+  color: var(--text-dark);
+}
+
+* {
+  box-sizing: border-box;
+}

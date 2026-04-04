@@ -4,8 +4,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import FundraiserPage from "./pages/FundraiserPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
-
+import CreateFundraiserPage from "./pages/CreateFundraiserPage.jsx";
+import EditFundraiserPage from "./pages/EditFundraiserPage.jsx";
+import CreateAccountPage from "./pages/CreateAccountPage.jsx";
+import NotFoundPage from "./pages/NotFoundPage.jsx";
 import NavBar from "./components/NavBar.jsx";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +18,11 @@ const router = createBrowserRouter([
       children: [
           { path: "/", element: <HomePage /> },
           { path: "/login", element: <LoginPage /> },
+          { path: "/signup", element: <CreateAccountPage /> },
           { path: "/fundraiser/:id", element: <FundraiserPage /> },
+          { path: "/fundraiser/:id/edit", element: <EditFundraiserPage /> },
+          { path: "/create-fundraiser", element: <CreateFundraiserPage /> },
+          { path: "*", element: <NotFoundPage /> },
       ],
   },
 ]);
