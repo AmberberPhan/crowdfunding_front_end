@@ -1,26 +1,3 @@
-// import { Link } from "react-router-dom";
-// import "./FundraiserCard.css";
-// 
-// function FundraiserCard(props) {
-//   const { fundraiserData } = props;
-//   const fundraiserLink = `fundraiser/${fundraiserData.id}`;
-// 
-//   return (
-//     <div className="fundraiser-card">
-//       <Link to={fundraiserLink}>
-//         <img src={fundraiserData.image} />
-//         <h3>{fundraiserData.title}</h3>
-//         <p>{fundraiserData.description}</p>
-//         <p>Goal: ${fundraiserData.goal}</p>
-//         <p>{fundraiserData.is_open ? "Open" : "Closed"}</p>
-//         
-//       </Link>
-//     </div>
-//   );
-// }
-// 
-// export default FundraiserCard;
-
 import { Link } from "react-router-dom";
 import "./FundraiserCard.css";
 
