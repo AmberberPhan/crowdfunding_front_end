@@ -1,3 +1,21 @@
+
+A link to the deployed project: 
+   Front End: https://glowing-wisp-fbc65e.netlify.app/
+
+ A screenshot of the homepage: ![Homepage](src/assets/HomePage.png)
+
+
+ A screenshot of the fundraiser creation page/A screenshot of the fundraiser creation form: ![Creation Form](src/assets/Fundraiser_Creation_Form.png)
+
+
+ A screenshot of a fundraiser with pledges: ![Fundraiser Page](src/assets/FundraiserPage.png)
+
+
+ A screenshot of the resulting page when an unauthorized user attempts to edit a fundraiser (optional, depending on whether or not this functionality makes sense in your app!): With users who arent the owners of any fundraiser, the editing button is automatically hidden
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
